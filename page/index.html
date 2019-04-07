@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人博客</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="./js/axios.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="title"> 我的个人博客 | 技术博客 </a>
+            <ul class="menu">
+                <li><a href="/index.html">首页</a></li>
+                <li><a href="/siteMap.html">地图</a></li>
+                <li><a href="/about.html">关于</a></li>
+                <li><a href="/guestbook.html">留言</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="输入关键词查找">
+                <button >搜索</button>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content-left">
+            <div class="every-day" id="every_day">
+                <span>每日一句</span>
+                <p v-html="getContent"></p>
+            </div>
+            <div class="article-list" id="article_list">
+                <div class="article" v-for="article in articleList">
+                    <a :href="article.link" class="article-title">{{ article.title }}</a>
+                    <p class="article-content"> {{ article.content }}</p>
+                    <div class="article-foot">发布于{{ article.date}} |  浏览({{ article.views }}) | Tags：{{ article.tags }}</div>
+                </div>
+                <div class="page_pool">
+                    <ul>
+                        <li v-for="pageNum in pageNumList" :class="{now_page:(pageNum.text == page)}" @click="jumpTo(pageNum.page)">{{ pageNum.text }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-right">
+            <div class="right-module" id="random_tags">
+                <div>随机标签云</div>
+                <a :href="tag.link" v-for="tag in tags" :style="{color:randomColor(),fontSize:randomSize()}">{{ tag.text }}</a>
+            </div>
+            <div class="right-module" id="new_hot">
+                <div>最近热门</div>
+                <ul>
+                    <li v-for="temp in titleList"><a :href="temp.link">{{ temp.title }}</a></li>
+                </ul>
+            </div>
+            <div class="right-module" id="new_comments">
+                <div>最新评论</div>
+                <ul>
+                    <li v-for="temp in commentList">
+                        <div>
+                            <span>{{ temp.name }}</span>
+                            <span class="pull-right">{{ temp.date }}</span>
+                        </div>
+                        <p>{{ temp.comment }}</p>
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="right-module">
+                <div>友情链接</div>
+                <span><a href="#">挨踢茶馆</a></span>
+                <span><a href="#">挨踢茶馆</a></span>
+                <span><a href="#">挨踢茶馆</a></span>
+                <span><a href="#">挨踢茶馆</a></span>
+                <span><a href="#">挨踢茶馆</a></span>
+                <span><a href="#">挨踢茶馆</a></span>
+                <span><a href="#">挨踢茶馆</a></span>
+                <span><a href="#">挨踢茶馆</a></span>
+                <span><a href="#">挨踢茶馆</a></span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+            <li>C/C++</li>
+        </ul>
+        <p>Copyright © 2010-2017 哈哈哈哈</p>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="./js/base.js"></script>
+    
+</body>
+</html>

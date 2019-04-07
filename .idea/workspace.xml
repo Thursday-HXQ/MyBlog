@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdaac19f-768a-4bb1-bf15-f1f1e2c9ed6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/BlogDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/CommentDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/DBUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/EveryDayDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/TagsBlogMappingDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/TagsDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/blog_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/bootstrap-wysiwyg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-apollo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-clj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-erlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-go.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-hs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-llvm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-matlab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-mumps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-pascal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-rd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-tcl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-tex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-wiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-xq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/run_prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/jquery.hotkeys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/promo-868x350.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/republish.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/font/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/guestbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/siteMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/RespUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/TimeUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/BlogController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/CommentController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/EveryDayController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/TagsBlogMappingController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/TagsController.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="29" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/TagsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="55" column="6" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/TagsBlogMappingDao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="52" column="49" lean-forward="true" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/BlogController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="52" column="14" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!block;n#queryAllBlog#0" />
+                <element signature="n#!!block;n#queryBlogCount#0" />
+                <element signature="n#!!block;n#editBlog#0" />
+                <element signature="n#!!block;n#queryTag#0" />
+                <element signature="n#!!block;n#insertTag#0" />
+                <element signature="n#!!block;n#insertTagBlogMapping#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/BlogDao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="115" column="43" lean-forward="true" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/TagsDao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AMD JavaScript File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/page/css/base.css" />
+        <option value="$PROJECT_DIR$/page/css/index.css" />
+        <option value="$PROJECT_DIR$/page/siteMap.html" />
+        <option value="$PROJECT_DIR$/page/about.html" />
+        <option value="$PROJECT_DIR$/page/guestbook.html" />
+        <option value="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/index.html" />
+        <option value="$PROJECT_DIR$/server.conf" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/loader.js" />
+        <option value="$PROJECT_DIR$/dao/DBUtil.js" />
+        <option value="$PROJECT_DIR$/util/TimeUtil.js" />
+        <option value="$PROJECT_DIR$/util/RespUtil.js" />
+        <option value="$PROJECT_DIR$/dao/EveryDayDao.js" />
+        <option value="$PROJECT_DIR$/web/EveryDayController.js" />
+        <option value="$PROJECT_DIR$/web/TagsBlogMappingController.js" />
+        <option value="$PROJECT_DIR$/page/index.html" />
+        <option value="$PROJECT_DIR$/page/blog_detail.html" />
+        <option value="$PROJECT_DIR$/dao/BlogDao.js" />
+        <option value="$PROJECT_DIR$/web/BlogController.js" />
+        <option value="$PROJECT_DIR$/dao/CommentDao.js" />
+        <option value="$PROJECT_DIR$/web/CommentController.js" />
+        <option value="$PROJECT_DIR$/dao/TagsDao.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/dao/TagsBlogMappingDao.js" />
+        <option value="$PROJECT_DIR$/web/TagsController.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="77" />
+    <option name="y" value="21" />
+    <option name="width" value="1890" />
+    <option name="height" value="1022" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBlog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\前端学习\project\myblog\MyBlog" />
+      <recent name="E:\前端学习\project\myblog\MyBlog\page\font" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\前端学习\project\myblog\MyBlog\page\js" />
+      <recent name="E:\前端学习\project\myblog\MyBlog\page" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="BlogController.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/BlogController.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="TagsController.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/TagsController.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="TagsDao.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/dao/TagsDao.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="loader.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/loader.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.TagsDao.js" />
+        <item itemvalue="Node.js.TagsController.js" />
+        <item itemvalue="Node.js.BlogController.js" />
+        <item itemvalue="Node.js.loader.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdaac19f-768a-4bb1-bf15-f1f1e2c9ed6c" name="Default Changelist" comment="" />
+      <created>1554190094738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554190094738</updated>
+      <workItem from="1554190097614" duration="339000" />
+      <workItem from="1554254485614" duration="2337000" />
+      <workItem from="1554273890940" duration="4542000" />
+      <workItem from="1554358817096" duration="17321000" />
+      <workItem from="1554445717753" duration="2380000" />
+      <workItem from="1554513539174" duration="17852000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44771000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1111" height="631" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1654275" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.64" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.346" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/siteMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="6" selection-end-column="50" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/bootstrap-wysiwyg-master/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/guestbook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="130" column="10" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/bootstrap-wysiwyg-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="e#77#84#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/DBUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/TimeUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/RespUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/EveryDayDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/EveryDayController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/TagsBlogMappingController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/blog_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1958">
+          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/BlogDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="115" column="43" lean-forward="true" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/CommentDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/CommentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BlogController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="52" column="14" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#queryAllBlog#0" />
+            <element signature="n#!!block;n#queryBlogCount#0" />
+            <element signature="n#!!block;n#editBlog#0" />
+            <element signature="n#!!block;n#queryTag#0" />
+            <element signature="n#!!block;n#insertTag#0" />
+            <element signature="n#!!block;n#insertTagBlogMapping#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/TagsDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/TagsBlogMappingDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="52" column="49" lean-forward="true" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/TagsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="55" column="6" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="29" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

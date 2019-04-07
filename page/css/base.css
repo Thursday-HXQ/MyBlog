@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family: "MyIcon";
+    src:url("../font/glyphicons-halflings-regular.woff2");
+}
+
+body{
+    background-image: url('../img/bg.jpg');
+    background-size: 150px 150px;
+    background-repeat: repeat;
+    /* position: relative; */
+    text-align: center;
+}
+.header{
+    width:100%;
+    height:50px;
+    background: #191818;
+}
+
+.container{
+    position: relative;
+    width:1170px;
+    height:50px;
+    margin: 0 auto;
+    /* background: white; */
+}
+
+.title{
+    display: inline-block;
+    float: left;
+    color:#eeeeee;
+    line-height:50px;
+    margin:0px 15px;
+    font-size:18px;
+}
+.menu{
+    /* background:green; */
+    float:left;
+}
+.menu > li{
+    display: inline-block;
+    float:left;
+    height:50px;
+    width:58px;
+    color:#eeeeee;
+    font-size:14px;
+    line-height:50px;
+}
+.menu > li > a{
+    color:#eeeeee;
+}
+
+.search-bar > input{
+    display: inline-block;
+    position: absolute;
+    height:22px;
+    padding:5px 10px;
+    border-radius:8px;
+    outline:none;
+    border:1px solid;
+    font-size:14px;
+    top:50%;
+    margin-top:-18px;
+    right:60px;
+
+}
+.search-bar > button {
+    display: inline-block;
+    position: absolute;
+    width:54px;
+    height:34px;
+    padding:5px 10px;
+    border-radius:8px;
+    top:50%;
+    margin-top:-18px;
+    outline:none;
+    color:#555555;
+    right:0;
+    background:#eee;
+}
+.content{
+    display: inline-block;
+    position: relative;
+    width:1170px;
+    margin:30px auto 0px auto;
+    
+}
+
+.content-left{
+    float: left;
+    width:66%;
+    padding:0px 20px 0px 0px;
+    box-sizing: border-box;
+    /* background:green; */
+}
+
+.content-right{
+    float: right;
+    width:34%;
+    padding:0px 0px 0px 0px;
+}
+.right-module{
+    display: inline-block;
+    width:100%;
+    background: #1f1f1f;
+    color:white;
+    border-radius:10px;
+    text-align: left;
+    padding:0px 15px 25px 15px;
+    margin-bottom:20px;
+}
+
+.right-module > div{
+    font-size:14px;
+    display: block;
+    text-align: left;
+    padding:15px 5px 15px 0px;
+    color:dodgerblue;
+}
+.right-module > a{
+    color:dodgerblue;
+    display: inline-block;
+    text-decoration: none;
+    margin-right:5px;
+    font-size:14px;
+}
+.right-module > ul >li{
+    list-style: none;
+    color:white;
+    padding:8px 0px;
+    border-bottom:1px solid #292929;
+}
+
+.right-module > ul > li >a {
+    text-decoration: none;
+    color:white;
+    font-size:14px;
+}
+.right-module > ul > li >div{
+    padding:5px 0px;
+}
+.right-module > ul > li >div >span{
+    font-size:14px;
+    color:white;
+}
+.pull-right{
+    position: absolute;
+    right:15px;
+}
+.right-module > ul > li >p{
+    font-size:14px;
+    color:#777;
+}
+
+.right-module > span{
+    display: inline-block;
+    width:49%;
+    height:30px;
+    margin-top:10px;
+    /* box-sizing: border-box; */
+}
+.right-module >span > a{
+    text-decoration: none;
+    color:white;
+    font-size:14px;
+    line-height: 30px;
+}
+footer{
+    width:100%;
+    height:60px;
+    background:#191918;
+    padding:20px;
+    text-align: center;
+}
+footer > ul {
+    display: inline-block;
+    margin:0px auto;
+    text-align: center;
+}
+footer > ul >li{
+    color:#a2a2a2;
+    float: left;
+    font-size:14px;
+    margin-left:10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+footer > p{
+    text-align: cetner;
+    margin-top:10px;
+    color:#a2a2a2;
+}
+.page_pool {
+    margin-top:20px;
+    display: inline-block;
+}
+.page_pool >ul > li {
+    /* display: inline-block; */
+    float: left;
+    list-style: none;
+    width:40px;
+    height:30px;
+    background: white;
+    text-align: center;
+    line-height: 30px;
+    border:1px solid black;
+    cursor: pointer;
+
+}
+.page_pool >ul > li:hover{
+    background: #777;
+}
+.now_page{
+    background: #333!important;
+    color:white;
+}
+.blog-comments{
+    width:100%;
+    /* background:white; */
+}
+.blog-comments-msg{
+    margin-top:20px;
+    padding:10px;
+    display: inline-block;
+    width:100%;
+    text-align: left;
+}
+.blog-comment{
+    width:95%;
+    background:#d9edf7;
+    border:1px dashed #7ca4c1;
+    padding:10px 10px 20px 10px;
+    margin-top:10px;
+    color:#31708f;
+    text-align: left;
+}
+.blog-comment span{
+    display: inline-block;
+    width:100%;
+    padding-left:10px;
+}
+.blog-comment div{
+    display: inline-block;
+    width:100%;
+    padding-left:10px;
+    margin-top:10px;
+}
